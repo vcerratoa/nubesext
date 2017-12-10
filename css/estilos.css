@@ -42,6 +42,12 @@ p{
     color: #FFF;
     font-family: Quicksand, sans-serif;
 }
+ul{
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
 
 
 /*
@@ -55,11 +61,10 @@ Estilos de identificadores
     margin: auto;
 }
 #presentacion, #wiki, #blog, #gestion, #comunicacion, #anuncios{
-    height: 500px;
+    height: 400px;
     width: 80%;
     margin: auto;
     text-align: center;
-    vert-align: middle;
 }
 
 #izquierda, #derecha{
@@ -69,27 +74,49 @@ Estilos de identificadores
     margin: auto;
 }
 #izquierda{
+    height: 300px;
     float: left;
     background-color: #6f6456;
+    padding-top: 15%;
 }
 #derecha{
     float: right;
     background-color: #fee659;
-}
-
-#line{
-    height: 20.5%;
-    width: 25%;
+    padding-top: 13%;
+    height: 316px;
 }
 
 #wiki{
-    background-color: greenyellow;
+    background-color: grey;
+    height: 280px;
+    padding-top: 10%;
 }
 #parrafowiki{
-    color: black;
+    color: navajowhite;
+    text-align: justify;
 }
 
 #imagenes {
-    height: 10em;
-    width: 10em;
+    height: 15em;
+    width: 15em;
+}
+
+#pie{
+    height: 15%;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    background-color: darkcyan;
+    padding: 5%;
+}
+
+#chiquito{
+    height: auto;
+    width: auto;
+    background-color: darkslategrey;
+    text-align: center;
+}
+#gestion{
+    height: 150px;
+    background-color: darkgoldenrod;
 }
